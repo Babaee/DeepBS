@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/liblitiv_utils.a  CMakeFiles/litiv_utils.dir/src/platform.cpp.o CMakeFiles/litiv_utils.dir/src/opencv.cpp.o
+/usr/bin/ranlib ../../lib/liblitiv_utils.a

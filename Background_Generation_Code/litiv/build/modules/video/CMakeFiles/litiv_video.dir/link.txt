@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/liblitiv_video.a  CMakeFiles/litiv_video.dir/src/BackgroundSubtractionUtils.cpp.o CMakeFiles/litiv_video.dir/src/BackgroundSubtractorLBSP.cpp.o CMakeFiles/litiv_video.dir/src/BackgroundSubtractorLOBSTER.cpp.o CMakeFiles/litiv_video.dir/src/BackgroundSubtractorPAWCS.cpp.o CMakeFiles/litiv_video.dir/src/BackgroundSubtractorPBAS.cpp.o CMakeFiles/litiv_video.dir/src/BackgroundSubtractorSuBSENSE.cpp.o CMakeFiles/litiv_video.dir/src/BackgroundSubtractorViBe.cpp.o
+/usr/bin/ranlib ../../lib/liblitiv_video.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/liblitiv_datasets.a  CMakeFiles/litiv_datasets.dir/src/datasets.cpp.o CMakeFiles/litiv_datasets.dir/src/eval.cpp.o CMakeFiles/litiv_datasets.dir/src/utils.cpp.o CMakeFiles/litiv_datasets.dir/src/metrics.cpp.o CMakeFiles/litiv_datasets.dir/src/impl/BSDS500.cpp.o
+/usr/bin/ranlib ../../lib/liblitiv_datasets.a

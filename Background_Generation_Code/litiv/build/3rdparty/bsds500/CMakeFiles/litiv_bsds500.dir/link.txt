@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/liblitiv_bsds500.a  CMakeFiles/litiv_bsds500.dir/src/kofn.cpp.o CMakeFiles/litiv_bsds500.dir/src/csa.cpp.o
+/usr/bin/ranlib ../../lib/liblitiv_bsds500.a

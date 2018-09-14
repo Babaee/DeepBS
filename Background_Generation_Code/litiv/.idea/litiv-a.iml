@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/modules/features2d/src/LBSP.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/features2d/include/litiv/features2d.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/features2d/include/litiv/features2d/LBSP.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/features2d/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/world/src/world.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/world/include/litiv/litiv.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/world/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/imgproc/src/EdgeDetectorLBSP.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/imgproc/src/EdgeDetectorCanny.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/imgproc/src/imgproc.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/imgproc/src/EdgeDetectionUtils.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/imgproc/include/litiv/imgproc.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/imgproc/include/litiv/imgproc/EdgeDetectionUtils.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/imgproc/include/litiv/imgproc/EdgeDetectorLBSP.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/imgproc/include/litiv/imgproc/EdgeDetectorCanny.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/imgproc/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/vptz/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/utils/src/platform.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/utils/src/opencv.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/utils/include/litiv/utils.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/utils/include/litiv/utils/console.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/utils/include/litiv/utils/parallel.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/utils/include/litiv/utils/platform.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/utils/include/litiv/utils/distances.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/utils/include/litiv/utils/cxx.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/utils/include/litiv/utils/opencv.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/utils/include/litiv/utils/defines.hpp.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/utils/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/datasets/src/eval.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/datasets/src/impl/BSDS500.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/datasets/src/datasets.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/datasets/src/metrics.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/datasets/src/utils.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/datasets/include/litiv/datasets.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/datasets/include/litiv/datasets/metrics.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/datasets/include/litiv/datasets/impl/LITIV2012b.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/datasets/include/litiv/datasets/impl/CDnet.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/datasets/include/litiv/datasets/impl/Wallflower.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/datasets/include/litiv/datasets/impl/BSDS500.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/datasets/include/litiv/datasets/impl/all.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/datasets/include/litiv/datasets/impl/PETS2001.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/datasets/include/litiv/datasets/impl/vap-trimod2016.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/datasets/include/litiv/datasets/utils.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/datasets/include/litiv/datasets/eval.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/datasets/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/video/src/BackgroundSubtractorViBe.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/video/src/BackgroundSubtractorPBAS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/video/src/BackgroundSubtractorPAWCS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/video/src/BackgroundSubtractionUtils.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/video/src/BackgroundSubtractorSuBSENSE.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/video/src/BackgroundSubtractorLBSP.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/video/src/BackgroundSubtractorLOBSTER.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/video/include/litiv/video.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/video/include/litiv/video/BackgroundSubtractorLBSP.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/video/include/litiv/video/BackgroundSubtractorLOBSTER.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/video/include/litiv/video/BackgroundSubtractorViBe.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/video/include/litiv/video/BackgroundSubtractorPBAS.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/video/include/litiv/video/BackgroundSubtractorPAWCS.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/video/include/litiv/video/BackgroundSubtractionUtils.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/video/include/litiv/video/BackgroundSubtractorSuBSENSE.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/video/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.git/refs/heads/master" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.git/HEAD" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3rdparty/dshowbase/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3rdparty/bsds500/src/csa.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3rdparty/bsds500/src/kofn.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3rdparty/bsds500/include/litiv/3rdparty/bsds500/match.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3rdparty/bsds500/include/litiv/3rdparty/bsds500/csa_types.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3rdparty/bsds500/include/litiv/3rdparty/bsds500/kofn.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3rdparty/bsds500/include/litiv/3rdparty/bsds500/csa_defs.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3rdparty/bsds500/include/litiv/3rdparty/bsds500/csa.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3rdparty/bsds500/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3rdparty/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/edges/src/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/edges/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/vidreg/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/capture/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/changedet/src/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/changedet/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/vptz/camshift/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/vptz/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/vptz/gtviewer/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/handregistr/src/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/handregistr/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/doc/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/samples/changedet/src/FluxTensorMethod.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/samples/changedet/src/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/samples/changedet/src/FluxTensorMethod.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/samples/changedet/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/samples/datasets/src/middlebury2005.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/samples/datasets/src/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/samples/datasets/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/samples/edges/src/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/samples/edges/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/samples/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/checks/simd/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/checks/simd/cvhardwaresupport_check.cpp.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/Modules/FindOpenGM.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/Modules/FindGLM.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/Modules/FindGLEW.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/Modules/FindGLFW.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/Modules/FindFREEGLUT.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/CMakeConfigurableFile.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/GetGitRevisionDescription.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/FrameworkUtils.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/GetGitRevisionDescription.cmake.in" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file:///usr/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include" />
+          <root url="file:///usr/local/include" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/litiv-a0c61511/a0c61511/Release/modules/world/include" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/litiv-a0c61511/a0c61511/Release/modules/utils/include" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/litiv-a0c61511/a0c61511/Debug/modules/world/include" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/litiv-a0c61511/a0c61511/Debug/modules/utils/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///usr/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include" />
+          <root url="file:///usr/local/include" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/litiv-a0c61511/a0c61511/Release/modules/world/include" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/litiv-a0c61511/a0c61511/Release/modules/utils/include" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/litiv-a0c61511/a0c61511/Debug/modules/world/include" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/litiv-a0c61511/a0c61511/Debug/modules/utils/include" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

@@ -1,0 +1,19 @@
+Determining if the function aligned_alloc exists failed with the following output:
+Change Dir: /Users/Capricorn/Desktop/litiv-a/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4c158/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4c158.dir/build.make CMakeFiles/cmTC_4c158.dir/build
+Building C object CMakeFiles/cmTC_4c158.dir/CheckFunctionExists.c.o
+/usr/local/bin/cc    -DCHECK_FUNCTION_EXISTS=aligned_alloc   -o CMakeFiles/cmTC_4c158.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.6.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4c158
+/usr/local/Cellar/cmake/3.6.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c158.dir/link.txt --verbose=1
+/usr/local/bin/cc   -DCHECK_FUNCTION_EXISTS=aligned_alloc -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4c158.dir/CheckFunctionExists.c.o  -o cmTC_4c158  
+Undefined symbols for architecture x86_64:
+  "_aligned_alloc", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_4c158] Error 1
+make: *** [cmTC_4c158/fast] Error 2
+
+

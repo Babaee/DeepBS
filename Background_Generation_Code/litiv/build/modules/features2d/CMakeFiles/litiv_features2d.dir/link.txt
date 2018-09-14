@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/liblitiv_features2d.a  CMakeFiles/litiv_features2d.dir/src/LBSP.cpp.o
+/usr/bin/ranlib ../../lib/liblitiv_features2d.a

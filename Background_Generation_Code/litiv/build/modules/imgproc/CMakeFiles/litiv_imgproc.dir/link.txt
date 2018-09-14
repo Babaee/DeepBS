@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/liblitiv_imgproc.a  CMakeFiles/litiv_imgproc.dir/src/EdgeDetectionUtils.cpp.o CMakeFiles/litiv_imgproc.dir/src/EdgeDetectorCanny.cpp.o CMakeFiles/litiv_imgproc.dir/src/EdgeDetectorLBSP.cpp.o CMakeFiles/litiv_imgproc.dir/src/imgproc.cpp.o
+/usr/bin/ranlib ../../lib/liblitiv_imgproc.a

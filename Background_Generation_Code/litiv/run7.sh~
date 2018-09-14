@@ -1,0 +1,9 @@
+./litiv_sample_changedet <<< "10 1 1"
+./litiv_sample_changedet <<< "10 2 1"
+./litiv_sample_changedet <<< "10 3 1"
+./litiv_sample_changedet <<< "10 4 1"
+./litiv_sample_changedet <<< "10 5 1"
+./litiv_sample_changedet <<< "10 4 1"
+./litiv_sample_changedet <<< "10 5 1"
+./litiv_sample_changedet <<< "9 6 1"
+

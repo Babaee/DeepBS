@@ -1,0 +1,30 @@
+require 'DataLoader' 
+require 'image'
+
+
+--[[
+Displays mini batch of size
+important: start with qlua -> $ qlua show_minibatch.lua
+]]
+
+local category = 'all_categories'
+
+local dl_param = {
+	h5_sequence = '/media/dit/data/Datasets/subsense_block_data_color/' .. category, 
+	sequence_stat = '/media/dit/data/Datasets/pbas_block_data_color/' .. category ..'/stats/sequence_stat.h5' ,
+	bg_stat = '/media/dit/data/Datasets/pbas_block_data_color/' .. category .. '/stats/bg_stat.h5',
+	start_train = 0, 
+	stop_train = 1, 
+	sequence_length = 3,
+	batch_size = 48,
+	gray_scale = false
+}
+
+l = DataLoader(dl_param)
+test = l:getNextBatch('train')
+
+
+image.display(image.toDisplayTensor(test.data[{{},1,{},{},{}}]))
+image.display(image.toDisplayTensor(test.data[{{},2,{},{},{}}]))
+image.display(image.toDisplayTensor(test.label[{{},{},{}}]))
+

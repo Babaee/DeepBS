@@ -1,0 +1,7 @@
+2 possibilities to generate the training data
+
+1) temporal median bg images -> 1 bg image per video scene
+2) bg model bg images -> 1 bg image per video frame
+
+
+

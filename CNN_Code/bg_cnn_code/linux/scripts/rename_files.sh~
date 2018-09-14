@@ -1,0 +1,12 @@
+find . -name '*.png' -type f -exec bash -c 'mv "$1" `/usr/home/dit/Desktop/zero_pad.sh "$1"`' -- {} \;
+
+for file in [0-9]*.png; do
+  # strip the prefix ("foo") off the file name
+  #postfile=${file#foo}
+  # strip the postfix (".png") off the file name
+  number=${file%.png}
+  # subtract 1 from the resulting number
+  # copy to a new name in a new folder
+  # mv ${file} $(printf bin%06d.png $number)
+  mv ${file} $(printf bin%06d.png $number)
+done
